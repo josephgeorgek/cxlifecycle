@@ -5,7 +5,7 @@ var lastShownPageId = null;
 function setup () {
     var style = document.createElement("link");
     style.setAttribute("rel", "stylesheet");
-    style.setAttribute("href", "Resources/Style.css");
+    style.setAttribute("href", "https://rawgit.com/josephgeorgek/cxlifecycle/master/Resources/Style.css");
     document.getElementsByTagName("head")[0].appendChild(style);
     
     var content = document.getElementById("content");
